@@ -1,0 +1,84 @@
+*********************************************
+*********************************************
+
+Instructions To Run
+---------------------------------------------
+# Run 'make' which will compile the code and make an executable named sample2D
+# To run the game, type './sample2D' in the terminal
+# Instructions to play the game are provided in help.txt in the same folder
+---------------------------------------------
+
+
+
+Libraries Used
+---------------------------------------------
+# lGl
+# lglfw
+# ldl
+---------------------------------------------
+
+###########################################################
+#		     About The Game 			  #
+###########################################################
+
+- The motive of the game is to put the cuboidal block in the
+  destined hole in the game.
+
+- The block can move by rolling over it's sides or by tumbling
+  over when it is standing.
+
+- The block takes two tiles spaces when lying down and a single 
+  tile space when standing.
+
+- Normal Tiles: Coloured Yellow. You can move anyway you like
+  on these tiles. 
+
+- Fragile Tiles: Coloured Green. The block should be only lying down
+  to be standing on a fragile tile else it will break.
+
+- Simple Switch: Marked with Orange Triangle. The block can be in any 
+  position above this switch to activate the switch. Some new
+  tiles can come up with this switch.
+
+- Hard Switch: Marked with Orange Squares. The block needs to be
+  in standing position upon this switch to activate it. New
+  tiles will come up once you stand on this switch.
+
+- The block should always be on the board as a whole. Even if half
+  of the block goes out of the board, it will fall.
+
+- To put the block in the winning hole, block should be in the
+  standing position to get into the hole.
+
+
+############################################################
+#		    Scoring System 			   #
+############################################################
+
+- Number of Moves. Minimise the number of moves to win a level.
+- Time Taken. Minimise the time taken to complete a level.
+
+
+############################################################
+# 		     Instructions			   #
+############################################################
+
+- Controlling the Block
+  * Moving 
+    Keyboard:
+    	+ Move Up   : Up
+	+ Move Down : Down
+ 	+ Move Left : Left
+	+ Move Right: Right
+
+- Changing Views
+  * Toggling View
+    Keyboard:
+	+ Toggle View: Space
+
+  * ViewTypes in order:
+	Tower View -> Follow Cam -> Helicopter View -> Block View -> Top View
+
+ 
+************************END OF FILE***************************
+
